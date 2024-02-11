@@ -10,35 +10,31 @@ const initialState: TarefasState = {
   itens: [
     {
       id: 1,
-      descricao:
-        'Estudar ReactJS para conseguir meu certificado além de aprender mais sobre',
+      descricao: 'Estudar ReactJS para aprender sobre',
       prioridade: enums.Prioridade.IMPORTANTE,
       status: enums.Status.CONCLUIDA,
-      titulo: 'Estudar ReactJS na RocketSeat'
+      titulo: 'Estudar ReactJS na EBAC'
     },
     {
       id: 2,
-      descricao:
-        'Preciso chegar aos 70% urgente, para entrar no programa de empregabilidade',
+      descricao: 'Buscar meus exames no médico',
       prioridade: enums.Prioridade.URGENTE,
       status: enums.Status.PENDENTE,
-      titulo: 'Chegar aos 70% na EBAC até dia 29'
+      titulo: 'Exames prontos'
     },
     {
       id: 3,
-      descricao:
-        'Não é urgente, porém quero fazer para ver se eu vou me dar bem n oBack-End em Python',
+      descricao: 'Ir ao mercado comprar frutas',
       prioridade: enums.Prioridade.IMPORTANTE,
       status: enums.Status.PENDENTE,
-      titulo: 'Estudar Python na RocketSeat'
+      titulo: 'Acabou as frutas'
     },
     {
       id: 4,
-      descricao:
-        'Não é urgente, porém quero fazer para ver se eu vou me dar bem no Back-End em Python',
+      descricao: 'Tenho que lavar o carro',
       prioridade: enums.Prioridade.IMPORTANTE,
       status: enums.Status.PENDENTE,
-      titulo: 'Estudar Python na RocketSeat'
+      titulo: 'Lavar carro'
     }
   ]
 }
