@@ -1,11 +1,12 @@
 import styled from 'styled-components'
 import variaveis from '../../styles/variaveis'
 
-import { Props } from '.'
+type Props = {
+  ativo: boolean
+}
 
-type PropsSemLegendaContador = Omit<Props, 'contador' | 'legenda'>
-
-export const Card = styled.div<PropsSemLegendaContador>`
+export const Card = styled.div<Props>`
+  cursor: pointer;
   padding: 8px;
   border-radius: 8px;
   border: 1px solid
