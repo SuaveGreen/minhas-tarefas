@@ -28,13 +28,19 @@ export const Card = styled.div`
   padding: 16px;
   margin-bottom: 32px;
   border-radius: 16px;
+
+  label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
 `
 
 export const Titulo = styled.h3`
   color: ${variaveis.texto};
   font-size: 18px;
   font-weight: 500;
-  margin-bottom: 16px;
+  margin-left: 8px;
 `
 
 export const Tag = styled.span<TagProps>`
@@ -80,11 +86,6 @@ export const Botao = styled.button`
   color: ${variaveis.bgButton};
   border: solid 1px ${variaveis.bgButton};
   background-color: transparent;
-`
-export const BotaoSalvar = styled(Botao)`
-  background-color: transparent;
-  color: ${variaveis.verde};
-  border-color: ${variaveis.verde};
 `
 export const BotaoCancelarRemover = styled(Botao)`
   background-color: ${variaveis.vermelho};

@@ -15,13 +15,11 @@ export const Filtros = styled.div`
   grid-gap: 8px;
   margin-top: 16px;
 `
-export const Campo = styled.input`
-  outline: none;
-  padding: 8px 1px;
-  margin-top: 16px;
+
+export const BotaoVoltar = styled.button`
   border: none;
+  font-size: 40px;
+  cursor: pointer;
+  color: ${variaveis.bgButton};
   background-color: transparent;
-  border-bottom: 1px solid;
-  color: ${variaveis.campoBusca};
-  width: 100%;
 `

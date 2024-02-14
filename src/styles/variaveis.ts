@@ -11,5 +11,6 @@ export default {
   bgColorUnselectedCard: '#1e293b',
   bgButton: '#288c9e',
   bgColorSelectedCard: '#22d3ee',
+  bgButtonAdd: '#44bd32',
   boxShadow: 'rgba(34, 211, 238, 0.3)'
 }
